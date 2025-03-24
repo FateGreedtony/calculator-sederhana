@@ -23,8 +23,8 @@ int main(){
         //looping
         cout << "Ingin menggunakannya lagi?" << endl;
         cin >> pilih;
-    } while (pilih != 'n' || pilih != 'N');
+    } while (pilih == 'y' || pilih == 'Y');
 
-    system("pause");
+    system("pause");    
     return 0;
 }
